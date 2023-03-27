@@ -1,0 +1,797 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8134 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/A New One
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62316
+Successfully changed project path to: C:/Users/User/Desktop/A New One
+C:/Users/User/Desktop/A New One
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 224.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/A New One/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   NVIDIA
+    VRAM:     1977 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006447 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 117.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (742ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.021465 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 118.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.639 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1299ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (325ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (679ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5004 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.1 MB). Loaded Objects now: 5445.
+Memory consumption went from 196.0 MB to 194.9 MB.
+Total: 12.328400 ms (FindLiveObjects: 0.654500 ms CreateObjectMapping: 0.684000 ms MarkObjects: 6.668100 ms  DeleteObjects: 4.314900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1529428.043439 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eecc253734895facb66926253515a97') in 0.091601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2f2b655bf21bdea72856b1c39a4a32') in 0.100274 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024534 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1341ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4894 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.2 MB). Loaded Objects now: 5452.
+Memory consumption went from 191.2 MB to 189.0 MB.
+Total: 5.626600 ms (FindLiveObjects: 0.639100 ms CreateObjectMapping: 0.436200 ms MarkObjects: 3.586600 ms  DeleteObjects: 0.963400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.088047 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Scenes/Post-processing Profile.asset
+  artifactKey: Guid(46937209a0be6674cb6acbff64e996c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Scenes/Post-processing Profile.asset using Guid(46937209a0be6674cb6acbff64e996c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf800a4a314779b87e7bb0d5875f7c15') in 0.017234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Scenes
+  artifactKey: Guid(28a3e19dacf246a43b46ac9b9a59eeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Scenes using Guid(28a3e19dacf246a43b46ac9b9a59eeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d5ed735a235f45748fd204a801ffa5') in 0.006802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Scripts
+  artifactKey: Guid(eb3315c2c1dd6604bbeece816631374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Scripts using Guid(eb3315c2c1dd6604bbeece816631374b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a75dc0716cd6c2f72f43b74df7529e') in 0.007437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile
+  artifactKey: Guid(6227636abb0dd0b43bad455c4a52e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile using Guid(6227636abb0dd0b43bad455c4a52e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e83673fa122a1974b0c2816cf3d134d') in 0.006023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541647 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Scenes/Demo_Neon_City.unity
+  artifactKey: Guid(d6d0c06e9cfec8f47bc01a13503589fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Scenes/Demo_Neon_City.unity using Guid(d6d0c06e9cfec8f47bc01a13503589fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ab82ce247566b6c74eea7fec3e964d') in 0.008146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 240.520934 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Scenes/Prefabs.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Scenes/Prefabs.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7aa477cc7194835f0307b5b66d8a4cd') in 0.010195 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1297ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1044ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4894 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (2.2 MB). Loaded Objects now: 5455.
+Memory consumption went from 191.2 MB to 189.0 MB.
+Total: 4.187100 ms (FindLiveObjects: 0.386600 ms CreateObjectMapping: 0.331900 ms MarkObjects: 2.565400 ms  DeleteObjects: 0.902200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 290.003207 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/1.mat
+  artifactKey: Guid(4b375903aef72474e813684354f915a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/1.mat using Guid(4b375903aef72474e813684354f915a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2856021260b5bb9638e6a36c6d9704') in 2.560815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_2.mat
+  artifactKey: Guid(6f6d85b3b87e926419685b251406c453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_2.mat using Guid(6f6d85b3b87e926419685b251406c453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0009369ee5f8dd01262271afca16b8') in 0.127660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Sky.mat
+  artifactKey: Guid(b8957a9225b68074aa3fe78c3c4df1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Sky.mat using Guid(b8957a9225b68074aa3fe78c3c4df1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ffd14f12a7ee007aaf636c65cff959') in 0.073094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/4_Emissive.mat
+  artifactKey: Guid(b56dee5f3fc6efc428be69d6cd5b5986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/4_Emissive.mat using Guid(b56dee5f3fc6efc428be69d6cd5b5986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d61d78f3322ddb4977dcec1a6416b4') in 1.820005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/3.mat
+  artifactKey: Guid(0b60d58ce3bfe8f4ca25c0456aad6b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/3.mat using Guid(0b60d58ce3bfe8f4ca25c0456aad6b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4bac05fe9ea6d84a47ea6ffa49e5e3') in 3.171481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Emmision.mat
+  artifactKey: Guid(293ee53da7e520c49ab0bdca82969c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Emmision.mat using Guid(293ee53da7e520c49ab0bdca82969c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe2b32bdce080bffd6e1edf19e29be1') in 0.012715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/2_Emissive.mat
+  artifactKey: Guid(d2ff1188cfcbf0a47a15bd93944a98c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/2_Emissive.mat using Guid(d2ff1188cfcbf0a47a15bd93944a98c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecf44618ef77ea0b40396154bd8429d') in 0.048962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_1.mat
+  artifactKey: Guid(df997a6f5efa2744f835e68a0caae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_1.mat using Guid(df997a6f5efa2744f835e68a0caae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1e96a26f272d504a6a0a6f1e69ef58') in 0.015567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/4.mat
+  artifactKey: Guid(93fd80f26ed984f40aea74a48c63b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/4.mat using Guid(93fd80f26ed984f40aea74a48c63b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9169e04787ac05ab711acaab68de9d') in 0.018075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_3.mat
+  artifactKey: Guid(e8dfe51d5efb4e94f89b2cf7ef33fd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_3.mat using Guid(e8dfe51d5efb4e94f89b2cf7ef33fd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38faeed2e1071ff4a9bfb29b59853ed') in 0.050751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_2.mat
+  artifactKey: Guid(d642a4d675aa5a445a9cc3cd3345e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_2.mat using Guid(d642a4d675aa5a445a9cc3cd3345e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a376d144e6c653574868df5f490ced32') in 0.014101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/5.mat
+  artifactKey: Guid(07844be69c2bd55428d103f36cb551a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/5.mat using Guid(07844be69c2bd55428d103f36cb551a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7de2271948744158e42fd05afde091') in 0.027824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Base.mat
+  artifactKey: Guid(61dd29c355d924c48965757f1e8e5912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Base.mat using Guid(61dd29c355d924c48965757f1e8e5912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c5bfee37f1e1b95736585c7f0a6240') in 0.011894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Textures/Construction_works.tga
+  artifactKey: Guid(b2d53b4587bdb944cae9e681a1c4606a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Textures/Construction_works.tga using Guid(b2d53b4587bdb944cae9e681a1c4606a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56e6543f10dafa6a380689cee74d40a') in 0.143123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_1.mat
+  artifactKey: Guid(f11ac9633109c7d40807cddb5caf388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_1.mat using Guid(f11ac9633109c7d40807cddb5caf388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5985e8440f86adb6714f07af351502f6') in 0.058436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/2.mat
+  artifactKey: Guid(364e59ff14a7d6f4f92ea16b2a0ca0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/2.mat using Guid(364e59ff14a7d6f4f92ea16b2a0ca0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55a35e360a259e1d62b66418b33037c') in 0.019597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/1_Emissive.mat
+  artifactKey: Guid(e5d0db2ac434c12419105d30a0ee007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/1_Emissive.mat using Guid(e5d0db2ac434c12419105d30a0ee007b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da606a5cd3d24ddc83b63a0d3f518bc') in 0.022513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Emmision_2.mat
+  artifactKey: Guid(2cfdb87223edf3046ba775e7641f0136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Emmision_2.mat using Guid(2cfdb87223edf3046ba775e7641f0136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ab300d6fb176c1227c10b901dc529c') in 0.012479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.007866 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Textures/Billboard/1.tga
+  artifactKey: Guid(ecad1d3651faa72498dae3fcd1bc849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Textures/Billboard/1.tga using Guid(ecad1d3651faa72498dae3fcd1bc849b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbebab3173c8d61c2499f150c44c104') in 0.014869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.253533 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Textures/Billboard/2.tga
+  artifactKey: Guid(c9acd084d6aa8f3408b7036ac91ea079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Textures/Billboard/2.tga using Guid(c9acd084d6aa8f3408b7036ac91ea079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5fd08e2a7687076115b545232188c4') in 0.019567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 174.673847 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Base.mat
+  artifactKey: Guid(61dd29c355d924c48965757f1e8e5912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Base.mat using Guid(61dd29c355d924c48965757f1e8e5912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42d132c6a58de4aba6aa5b45bb7760f') in 0.019664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_2.mat
+  artifactKey: Guid(6f6d85b3b87e926419685b251406c453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_2.mat using Guid(6f6d85b3b87e926419685b251406c453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd5282ce7a63eee19dc424478b0a05c') in 0.016997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_1.mat
+  artifactKey: Guid(df997a6f5efa2744f835e68a0caae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_Singboards_1.mat using Guid(df997a6f5efa2744f835e68a0caae9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17f2ef7a3e40c6d332a07c8eb6bd67c') in 0.016455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001403 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_3.mat
+  artifactKey: Guid(e8dfe51d5efb4e94f89b2cf7ef33fd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_3.mat using Guid(e8dfe51d5efb4e94f89b2cf7ef33fd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42c9d0cbd45ca8c061c2b49821f65ef') in 0.031220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_2.mat
+  artifactKey: Guid(d642a4d675aa5a445a9cc3cd3345e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_2.mat using Guid(d642a4d675aa5a445a9cc3cd3345e893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d9a9c58b3afbd20a220ed8e789394') in 0.017061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Neon_1.mat
+  artifactKey: Guid(f11ac9633109c7d40807cddb5caf388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Neon_1.mat using Guid(f11ac9633109c7d40807cddb5caf388b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5ba088e9044b88aefd4ba746563168') in 0.039649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.236254 seconds.
+  path: Assets/Scripts/BasicMover.cs
+  artifactKey: Guid(0e4f7d0aace85ce428914a6fca5e921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BasicMover.cs using Guid(0e4f7d0aace85ce428914a6fca5e921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040823050b347faa82757479471d2b3e') in 0.027656 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009398 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 41.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (41831ms)
+		BeginReloadAssembly (40052ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3412ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16514ms)
+		EndReloadAssembly (1436ms)
+			LoadAssemblies (413ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4913 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.1 MB). Loaded Objects now: 5570.
+Memory consumption went from 199.2 MB to 198.2 MB.
+Total: 8.275200 ms (FindLiveObjects: 0.601900 ms CreateObjectMapping: 0.370000 ms MarkObjects: 6.842600 ms  DeleteObjects: 0.459600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\A New One\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.417 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1418ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (504ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4910 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.1 MB). Loaded Objects now: 5573.
+Memory consumption went from 199.0 MB to 197.9 MB.
+Total: 3.951000 ms (FindLiveObjects: 0.419100 ms CreateObjectMapping: 0.339700 ms MarkObjects: 2.692200 ms  DeleteObjects: 0.499000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 607.240369 seconds.
+  path: Assets/Prefabs/BasicCameraMover.prefab
+  artifactKey: Guid(45de45522d45ba942af4836e0566d1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BasicCameraMover.prefab using Guid(45de45522d45ba942af4836e0566d1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3907cd2af803a953a2943eca135ad3c4') in 0.054345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.699926 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs
+  artifactKey: Guid(a86fdb3d79b95b344a7d030fdf3c9e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs using Guid(a86fdb3d79b95b344a7d030fdf3c9e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b9eff702542a3326e74c39e55f4286') in 0.014887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.569064 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House
+  artifactKey: Guid(4788b017d8bdeb7408fd2bedc488abf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House using Guid(4788b017d8bdeb7408fd2bedc488abf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36340189fb3984f882114d0fb1997ad') in 0.011510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107574 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_1.prefab
+  artifactKey: Guid(d20757b5b897b1c40a817f758f2f43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_1.prefab using Guid(d20757b5b897b1c40a817f758f2f43b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4305fc4df2566c1024c1bbe62ced3ae3') in 0.377395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_12.prefab
+  artifactKey: Guid(cbae7e47d5046524a9f7ed1b105c01d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_12.prefab using Guid(cbae7e47d5046524a9f7ed1b105c01d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4c1a88fec0253d89ef5bfd666b016c') in 0.450816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_4.prefab
+  artifactKey: Guid(ae3c5c597bb30494abebedc4c15621cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_4.prefab using Guid(ae3c5c597bb30494abebedc4c15621cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff44682681a76660bec1f437770c177') in 0.171850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_3.prefab
+  artifactKey: Guid(436de4b9dc1e8dc4d9874b4655e887e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_3.prefab using Guid(436de4b9dc1e8dc4d9874b4655e887e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d93f1a3d2cac744e44109141d02fcfd') in 0.063033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_9.prefab
+  artifactKey: Guid(062981693584b3c44afcd066524973da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_9.prefab using Guid(062981693584b3c44afcd066524973da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c49f5e3468970073c416a0f8c66dc51') in 0.110931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_5.prefab
+  artifactKey: Guid(a0a7204e96240ae47af86cd70b52c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_5.prefab using Guid(a0a7204e96240ae47af86cd70b52c13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae13c8c6e072a118421157e4bd30bb57') in 0.031625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_8.prefab
+  artifactKey: Guid(e986763cc827cdc4f90af90b1f50f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_8.prefab using Guid(e986763cc827cdc4f90af90b1f50f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29051ed921d5faafce7988d150a1f2a') in 0.059799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_10.prefab
+  artifactKey: Guid(84a6a16d77cecca4e9a3f2c6ff4c8770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_10.prefab using Guid(84a6a16d77cecca4e9a3f2c6ff4c8770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6597a61d1ca99b03936fcdea998c6af7') in 0.109301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_6.prefab
+  artifactKey: Guid(482a9109d5ceb0b4bafdc8d73f6a9ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_6.prefab using Guid(482a9109d5ceb0b4bafdc8d73f6a9ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ce340d5c36be8c4770d1a0cd8764c2') in 0.026116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_7.prefab
+  artifactKey: Guid(ec2adc3b577366b4bad308796e036243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_7.prefab using Guid(ec2adc3b577366b4bad308796e036243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4566e6ec6c67bdcad7181637cd477b') in 0.025815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_13.prefab
+  artifactKey: Guid(5bb4d489aff246f4ea2ed057960e16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_13.prefab using Guid(5bb4d489aff246f4ea2ed057960e16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64981a6a1a9dc5d282d65e4d0de51e6d') in 0.143412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_2.prefab
+  artifactKey: Guid(a2a49e0d93d009241b3228ccdfe2fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_2.prefab using Guid(a2a49e0d93d009241b3228ccdfe2fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdbf1b0b03f52d0253eccd86785e499') in 0.042878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_11.prefab
+  artifactKey: Guid(329e3b1e7dfc72f4680bc7b24a590808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/House_11.prefab using Guid(329e3b1e7dfc72f4680bc7b24a590808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927ebaaacd43e5a9d78b0535fb7f4983') in 0.102427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.257120 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes
+  artifactKey: Guid(594f8a894d7b3df489d78d14ebc5b5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes using Guid(594f8a894d7b3df489d78d14ebc5b5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890220f9d5204193efa46b0fb4406cae') in 0.010391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.688843 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_1_United_Homes.prefab
+  artifactKey: Guid(8f9ec4e2129f2bd46a80cb1a87809ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_1_United_Homes.prefab using Guid(8f9ec4e2129f2bd46a80cb1a87809ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e50f87611f5e19f368aae8c3ed88b4c') in 0.040946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_5_United_Homes.prefab
+  artifactKey: Guid(80261479212186247834818725f7f76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_5_United_Homes.prefab using Guid(80261479212186247834818725f7f76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ead52bac174feb76537b854504384d') in 0.038988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_12_United_Homes.prefab
+  artifactKey: Guid(919b72d35d4469849ac75968b2fb0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_12_United_Homes.prefab using Guid(919b72d35d4469849ac75968b2fb0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28d50ae33b753d04039e4b54ed27bf8') in 0.044175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_7_United_Homes.prefab
+  artifactKey: Guid(53c961726ed76dc4ba6ece497af25883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_7_United_Homes.prefab using Guid(53c961726ed76dc4ba6ece497af25883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f69f35fd534f3b77c002fca35b95b15') in 0.037781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_13_United_Homes.prefab
+  artifactKey: Guid(1c0e6742acedf3845b85c618125e8df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_13_United_Homes.prefab using Guid(1c0e6742acedf3845b85c618125e8df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458c1311758637fe6dda37062a12d71c') in 0.050419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_9_United_Homes.prefab
+  artifactKey: Guid(715bd3a2793a11a45b840f8e8d1b7728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_9_United_Homes.prefab using Guid(715bd3a2793a11a45b840f8e8d1b7728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b675376ca3096b5f472b234b4be6fcfd') in 0.041267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_3_United_Homes.prefab
+  artifactKey: Guid(ef552c95c48c18f40b2411edcc185e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_3_United_Homes.prefab using Guid(ef552c95c48c18f40b2411edcc185e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96add97501325991e8eacd4a0455554') in 0.037758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_2_United_Homes.prefab
+  artifactKey: Guid(3891f2042981eec4494d87d5869a1383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_2_United_Homes.prefab using Guid(3891f2042981eec4494d87d5869a1383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b35079234fa3d0803c17f6f38b4076e') in 0.078034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_4_United_Homes.prefab
+  artifactKey: Guid(8acfd3f732273244d857a74df5a954a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_4_United_Homes.prefab using Guid(8acfd3f732273244d857a74df5a954a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752e3774b6ee1ec06df958efec53c2b6') in 0.033572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_8_United_Homes.prefab
+  artifactKey: Guid(45e2537cbbb4cab4995aecaec4dc1841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_8_United_Homes.prefab using Guid(45e2537cbbb4cab4995aecaec4dc1841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d7074434317a40214ce04da7c26d98') in 0.041506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_10_United_Homes.prefab
+  artifactKey: Guid(a1904379c3d85ae46b5e98220b756476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_10_United_Homes.prefab using Guid(a1904379c3d85ae46b5e98220b756476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99c689cc3d4ff204a59ace9721738fc') in 0.040458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_11_United_Homes.prefab
+  artifactKey: Guid(2c71c9fb5a376da4da787c2de726011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_11_United_Homes.prefab using Guid(2c71c9fb5a376da4da787c2de726011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04473a1055c175da15bac14c69cc9590') in 0.045096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_6_United_Homes.prefab
+  artifactKey: Guid(14b1d4cad2b19c647950afe6e990f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Prefabs/House/United homes/House_6_United_Homes.prefab using Guid(14b1d4cad2b19c647950afe6e990f9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fc2835cf5a33f59f2c19f632654a4e') in 0.043938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.542516 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Textures/Sky.tga
+  artifactKey: Guid(1f05dc8d2fabdfd46a4c68ea26f31f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Textures/Sky.tga using Guid(1f05dc8d2fabdfd46a4c68ea26f31f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7666527ed1066fd173c59c76fb6a1644') in 0.030296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.190870 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Textures/Auto/Plasma_Emission.tga
+  artifactKey: Guid(d479f6bb36914df48ac5a3d4698e6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Textures/Auto/Plasma_Emission.tga using Guid(d479f6bb36914df48ac5a3d4698e6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b138bd9737dc3442cb5db64b6168b9') in 0.022612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.929238 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Emmision.mat
+  artifactKey: Guid(293ee53da7e520c49ab0bdca82969c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Emmision.mat using Guid(293ee53da7e520c49ab0bdca82969c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2e5e809d5dd66fccdc59ecc820883c') in 0.049429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CyberPunk_City_VR_Mobile/Materials/Emmision_2.mat
+  artifactKey: Guid(2cfdb87223edf3046ba775e7641f0136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CyberPunk_City_VR_Mobile/Materials/Emmision_2.mat using Guid(2cfdb87223edf3046ba775e7641f0136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edfa00b7f5292eaed30b7b8b62a4bee') in 0.027774 seconds 
